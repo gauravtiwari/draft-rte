@@ -23,7 +23,7 @@ module.exports = [{
   entry: './src/RichTextEditor.js',
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'react-rte.js',
+    filename: 'draft-rte.js',
     libraryTarget: 'commonjs2',
   },
   externals: {

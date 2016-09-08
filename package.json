@@ -1,8 +1,8 @@
 {
-  "name": "react-rte",
+  "name": "draft-rte",
   "version": "0.5.0",
   "description": "React Rich Text Editor",
-  "main": "dist/react-rte.js",
+  "main": "dist/draft-rte.js",
   "scripts": {
     "build": "npm run build-lib && npm run build-dist",
     "build-dist": "rimraf dist && webpack",
@@ -54,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sstur/react-rte.git"
+    "url": "git+https://github.com/gauravtiwari/draft-rte.git"
   },
   "keywords": [
     "reactjs",
@@ -85,7 +85,7 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sstur/react-rte/issues"
+    "url": "https://github.com/sstur/draft-rte/issues"
   },
-  "homepage": "https://github.com/sstur/react-rte#readme"
+  "homepage": "https://github.com/sstur/draft-rte#readme"
 }
