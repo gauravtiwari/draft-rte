@@ -65,10 +65,10 @@ export default class EditorToolbar extends Component {
     const {className} = this.props;
     return (
       <div className={cx(styles.root, className)}>
+        {this._renderBlockTypeDropdown()}
         {this._renderInlineStyleButtons()}
         {this._renderBlockTypeButtons()}
         {this._renderLinkButtons()}
-        {this._renderBlockTypeDropdown()}
         {this._renderUndoRedo()}
       </div>
     );

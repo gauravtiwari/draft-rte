@@ -271,8 +271,6 @@ function getBlockStyle(block: ContentBlock): string {
       return cx(result, styles.paragraph);
     case 'blockquote':
       return cx(result, styles.blockquote);
-    case 'code-block':
-      return cx(result, styles.codeBlock);
     default:
       return result;
   }
