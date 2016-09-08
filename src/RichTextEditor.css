@@ -1,16 +1,13 @@
 .root {
   background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 3px;
   font-size: 14px;
   padding: 10px;
 }
 
 .editor {
-  border-top: 1px solid #ddd;
   cursor: text;
   font-size: 16px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .editor .paragraph {
