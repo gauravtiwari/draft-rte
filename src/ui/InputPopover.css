@@ -59,6 +59,7 @@
   margin-bottom: 0;
 }
 
-.inner .buttonGroup button {
+.inner .buttonGroup button,
+.inner .buttonGroup > div {
   margin: 0;
 }
