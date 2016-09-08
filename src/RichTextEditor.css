@@ -13,6 +13,10 @@
   margin-top: 10px;
 }
 
+.editor .paragraph {
+  margin: 14px 0;
+}
+
 .editor :global(.public-DraftEditorPlaceholder-root),
 .editor :global(.public-DraftEditor-content) {
   margin: 0 -10px -10px;
