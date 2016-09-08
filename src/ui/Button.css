@@ -27,7 +27,6 @@
 
 .root:disabled {
   cursor: not-allowed;
-  background: none transparent;
 }
 
 .root:disabled > * {

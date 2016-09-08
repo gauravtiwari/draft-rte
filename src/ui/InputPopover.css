@@ -51,10 +51,14 @@
   font-family: inherit;
   font-size: inherit;
   line-height: 24px;
+  width: auto;
 }
 
 .inner .buttonGroup {
   flex: 0 1 auto;
-  margin-left: 4px;
   margin-bottom: 0;
+}
+
+.inner .buttonGroup button {
+  margin: 0;
 }
